@@ -2,3 +2,5 @@ Aplikacja, którą zrealizowałam podczas nauki w MMCSchool była doskonałą ok
 W ramach projektu wykorzystałam zdobytą wiedzę i narzędzia, by stworzyć rozwiązanie odpowiadające na realne potrzeby.
 Proces realizacji obejmował etap planowania, projektowania oraz testowania, co pozwoliło na kompleksowe zrozumienie pełnego cyklu tworzenia aplikacji.
 
+Live: https://lessyl.github.io/Drink-Search/
+
