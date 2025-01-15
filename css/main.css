@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 62.5%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+}
+
+.wrapper {
+	margin: 10em;
+	width: 40em;
+	height: 60em;
+	background-color: white;
+	border: 1 solid #6e6d6d;
+	box-shadow: 0 0 15px #585656;
+}
+
+.header {
+	position: relative;
+	padding: 10em 0;
+	background-image: url(../img/pistachios.jpg);
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.35);
+	z-index: 10;
+}
+
+.title {
+	position: absolute;
+	margin-left: 0.5em;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+	color: #fff;
+	z-index: 100;
+}
+
+.input {
+	position: absolute;
+	margin-left: 1.3em;
+	width: 90%;
+	padding: 0.3em;
+	bottom: 2em;
+	z-index: 100;
+}
+
+::placeholder {
+	font-size: 0.8em;
+}
+
+.drink-list {
+	margin: 2em 1.5em;
+}
+
+.drink-list-title {
+	margin-bottom: 1em;
+}
+
+li {
+	padding: .4em 1em;
+	font-size: 1.2em;
+	border-bottom: 1px solid #d8cfcf;
+	list-style: none;
+}
+
+li:last-child{
+	border-bottom: none;
+}
